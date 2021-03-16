@@ -1,6 +1,6 @@
 import Combine
 
-class SampleThing : ObservableObject
+public class SampleThing : ObservableObject
 {
     @Published var one = 1
 }
