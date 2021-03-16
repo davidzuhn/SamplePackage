@@ -2,7 +2,10 @@ import Combine
 
 public class SampleThing : ObservableObject
 {
-    @Published var one = 1
+    @Published public var one = 1
+
+    public init() {
+    }
 }
 
 
