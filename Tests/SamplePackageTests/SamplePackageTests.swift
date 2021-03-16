@@ -6,7 +6,8 @@ final class SamplePackageTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SamplePackage().text, "Hello, World!")
+        let thing = SampleThing()
+        XCTAssertEqual(thing.one, 1)
     }
 
     static var allTests = [
